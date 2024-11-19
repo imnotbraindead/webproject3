@@ -1,0 +1,132 @@
+<!--
+Name: Andy
+Course: PTEC Web Development
+Teacher: Ms. Hoitink
+School: Pembina Trails Collegiate
+Date Last Modified: 10-21
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treaty One Overview</title>
+    <style>
+        /* Internal CSS */
+        body {
+            background-color: #d5d5d5;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            margin: -10px -10px 0; /* Combined margin properties */
+        }
+
+        img {
+            float: right;
+            width: 500px;
+            height: 500px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #9c9797;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+
+        .element {
+            padding: 20px; /* Adds space inside the element */
+        }
+
+        #vid {
+            display: block;
+            margin: 20px auto; /* Center the video */
+        }
+        #t2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#treaty-signing">Where and when was Treaty 1 signed?</a></li>
+                <li><a href="#exact-location">Where exactly?</a></li>
+                <li><a href="#communities-involved">What communities are involved?</a></li>
+                <li><a href="#agreements">Agreements</a></li>
+                <li><a href="#treaty-differences">How is Treaty 1 different from other treaties?</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="treaty-signing">
+            <p style="text-align: center;">
+                Treaty One, <span style="color: red;">signed on August 3, 1871.</span> near the Red River in Manitoba, was the first of the numbered treaties 
+                between the Canadian government and Indigenous nations, including the Anishinaabe and Swampy Cree. 
+                It involved the cession of significant land in exchange for promises of reserves,
+                annual payments, and goods such as agricultural implements and education.
+                This treaty significantly impacted Indigenous communities, altering traditional ways of life
+                and governance while raising ongoing issues regarding the fulfillment of treaty promises and the recognition of Indigenous rights.
+                Today, Treaty One remains a foundational document in discussions about reconciliation and the relationship between Indigenous peoples and the Canadian government.
+            </p>
+        </section>
+
+        <section id="images">
+            <img class="element" src="images/signed.jpeg" style="float: left;" alt="This is the location of where the treaty was signed">
+            
+            <img class="element" src="images/maptreaty.jpeg" alt="Map of treaties showing various territorial agreements" id="treaty-map">
+        </section>
+
+        
+
+        <section>
+            <p id="t2">The Treaty included provisions for land allocation, <br>rights to hunt and fish, and commitments to education<br>
+                and health care. What sets this Treaty apart is its unique <br>provisions and possibly more inclusive negotiation <br> compared to others. Today, it is implemented through urban reserves <br>like
+                 Kapyong and economic initiatives that promote self-sufficiency and community<br> development in Treaty communities.</p>            
+            <iframe id="vid" width="480" height="375" src="https://www.youtube.com/embed/8uB83G7xZgU?si=oaH5HIyMqR92yrbi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+                
+        </section>
+    </main>
+    
+    <footer>
+        <p><a href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028664/1581294165927" target="_blank" style="color: white;">Learn more about Treaty One here</a></p>
+        <p style="color: aliceblue">For grade 4-8 
+            <br><a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank" style="color: white;">Learn more about Treaties 1 and 2</a>
+        </p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,186 @@
+<!--
+Name: Andy
+Course: PTEC Web Development
+Teacher: Ms. Hoitink
+School: Pembina Trails Collegiate
+Date Last Modified: 11-1
+-->
+<!-- 
+  Colors: Black, Grey, and Green
+  Reason: Black and grey for a professional, sleek look; green for a touch of growth and positivity. 
+  Font: Arial for a clean, modern, and readable design.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treaty One Overview</title>
+    <style>
+        /* Internal CSS */
+
+        /* Sets a light gray background color for the body of the page. */
+        body {
+            background-color: #d5d5d5;
+        }
+
+        header {
+            background-color: #148a14;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin: -10px -10px 0; /* Combined margin properties */
+        }
+        /* The header has a red background with white text and is centered. 
+           Negative margin is used to remove unwanted space around the header. */
+
+        img {
+            float: right;
+            width: 500px;
+            height: 500px;
+            padding-bottom: 25%;
+        }
+        /* The images float to the right, and are set to 500px in both width and height. */
+
+        /* Body styles */
+        body {
+            font-family: Arial;
+            background-color: #5e605d;
+            color: #ffffff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #146d09;
+            color: #fdfcfc;
+        }
+        /* The navigation menu has no bullet points, no margin or padding, 
+           and the background is a gray color. */
+
+        footer {
+            background-color: #2a2b2a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+        }
+        /* The footer has a dark gray background, white text, centered content, 
+           padding, and is stretched across the bottom of the page. */
+
+        nav li {
+            float: left;
+        }
+        /* Each list item in the navigation bar floats to the left, making the menu horizontal. */
+
+        nav li a {
+            display: block;
+            color: rgb(249, 249, 249);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /* Navigation links are displayed as blocks, with white text, centered, and with padding. */
+
+        nav li a:hover {
+            background-color: #111;
+        }
+        /* When a navigation link is hovered over, the background color changes to dark gray. */
+
+        #vid {
+            display: block;
+            margin: 20px auto; /* Center the video */
+            padding-top: 7%;
+            padding-bottom: 7%;
+        }
+        /* Centers the video by making it block-level and giving it automatic left and right margins. */
+
+        #t2 {
+            text-align: center;
+            padding-top: 5%;
+        }
+
+        .color {
+            color: green;
+            padding: 5%;
+        }
+
+        .align-footer {
+            margin-bottom: 0px;
+        }
+
+        main {
+            height: 150vh;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#treaty-signing">Where and when was Treaty 1 signed?</a></li>
+                <li><a href="http://127.0.0.1:5500/project2.html" target="_blank">Indigenous relations</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <section id="element">
+                <p style="text-align: center;">
+                    Treaty One, <span style="color: red;">signed on August 3, 1871.</span> near the Red River in Manitoba, was the first of the numbered treaties 
+                    between the Canadian government and Indigenous nations, including the Anishinaabe and Swampy Cree. 
+                    It involved the cession of significant land in exchange for promises of reserves,
+                    annual payments, and goods such as agricultural implements and education.
+                    This treaty significantly impacted Indigenous communities, altering traditional ways of life
+                    and governance while raising ongoing issues regarding the fulfillment of treaty promises and the recognition of Indigenous rights.
+                    Today, Treaty One remains a foundational document in discussions about reconciliation and the relationship between Indigenous peoples and the Canadian government.
+                    <i>            <br><a href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028664/1581294165927l" target="_blank" style="color: white;">Learn more about Treaties 1 and 2</a>
+                    </i>
+                </p>
+            </section>
+            <!-- This section describes the history and significance of Treaty One, 
+                 with some of the impacts it had on Indigenous communities. -->
+        </div>
+
+        <section id="images">
+            <img class="element" src="images/signed.jpeg" style="float: left;" alt="This is the location of where the treaty was signed">
+            <img class="element" src="images/maptreaty.jpeg" alt="Map of treaties showing various territorial agreements" id="treaty-map">
+        </section>
+        <!-- These images show the location where Treaty One was signed and a map of treaties. -->
+
+        <div>
+            <section>
+                <p id="t2">The Treaty included provisions for land allocation, <br>rights to hunt and fish, and commitments to education<br>
+                    and health care. What sets this Treaty apart is its unique <br>provisions and possibly more inclusive negotiation <br> compared to others. Today, it is implemented through urban reserves <br>like
+                    Kapyong and economic initiatives that promote self-sufficiency and community<br> development in Treaty communities.
+                    <i><br><a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank" style="color: white;">Learn more about Treaties 1 and 2</a>
+                    </i>
+                </p>            
+                <!-- This paragraph explains the provisions in Treaty One and its ongoing effects today. -->
+
+                <iframe id="vid" width="480" height="375" src="https://www.youtube.com/embed/8uB83G7xZgU?si=oaH5HIyMqR92yrbi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- This iframe embeds a YouTube video that explains Treaty One. -->
+            </section>
+        </div>
+    </main>
+
+
+    <footer>
+        <p><a href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028664/1581294165927" target="_blank" style="color: white;">Learn more about Treaty One here</a></p>
+        <!-- This link directs users to more detailed information about Treaty One. -->
+
+        <p id="color">For grade 4-8 
+            <br><a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank" style="color: white;">Learn more about Treaties 1 and 2</a>
+            <br><a href="https://www.youtube.com/embed/8uB83G7xZgU?si=oaH5HIyMqR92yrbi" target="_blank" style="color: white;">Find Out About How The Treaties Were Made</a>
+        </p>
+        <!-- A secondary link provides additional learning resources for younger audiences. -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: #d5d5d5;
+    }
+    /* Sets a light gray background color for the body of the page. */
+
+    header {
+        background-color: #0d751b;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: -10px -10px 0; /* Combined margin properties */
+    }
+    /* The header has a red background with white text and is centered. 
+       Negative margin is used to remove unwanted space around the header. */
+
+    img {
+        float: right;
+        width: 500px;
+        height: 500px;
+    }
+    /* The images float to the right, and are set to 500px in both width and height. */
+
+    /* Body styles */
+    body {
+        font-family: Arial;
+        background-color: #5e605d;
+        color: #000000;
+        height: 50vh;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0d751b;
+    }
+    /* The navigation menu has no bullet points, no margin or padding, 
+       and the background is a gray color. */
+
+    footer {
+        background-color: #242825;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+    }
+    /* The footer has a dark gray background, white text, centered content, 
+       padding, and is stretched across the bottom of the page. */
+
+    nav li {
+        float: left;
+    }
+    /* Each list item in the navigation bar floats to the left, making the menu horizontal. */
+
+    nav li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /* Navigation links are displayed as blocks, with white text, centered, and with padding. */
+ 
+    nav li a:hover {
+        background-color: #111;
+    }
+    /* When a navigation link is hovered over, the background color changes to dark gray. */
+
+    .tinted-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(54, 41, 41, 0.3); /* Red tint with 30% opacity */
+        z-index: 1;
+    }
+
+    #vid {
+        display: block;
+        margin: 20px auto; /* Center the video */
+      
+        margin-bottom: 0px;
+    }
+    /* Centers the video by making it block-level and giving it automatic left and right margins. */
+
+    #t2 {
+        text-align: center;
+    }
+
+    .color {
+        color: green;
+        padding: 5%;
+    }
+
+    .align-footer {
+        margin-bottom: 0px;
+    }
+
+    main {
+        height: 80vh;
+    }
+
+    .text1{
+        color: white;
+        text-align: center;
+        margin-top: 150px;
+        
+    
+    position: absolute;
+            top: 5%;  /* Moves the text to the top of the page */
+            left: 50%; /* Centers the text horizontally */
+            transform: translateX(-50%); /* Centers the text exactly */
+    }
+    #text2{
+        color: white;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 10%;
+       
+    }
+    #text-vid{
+        margin-bottom: 500px;
+    }
+</style>
+
+<body>
+    <div>
+        <main>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/project.html">Where and when was Treaty 1 signed?</a></li>
+                        <li><a href="http://127.0.0.1:5500/project2.html" target="_blank">where was is signed</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </main>
+
+        <p class="text1"> Indigenous peoples in North America have historically faced displacement and disruption from their ancestral lands due <br>to colonization, government policies, and encroachment by settlers. In response, many Indigenous 
+            groups were forcibly <br>relocated to reservations, often on land that was remote, ,<br>resource-poor, or far from their original territories. 
+            Over time, <br>Indigenous communities have worked to establish a sense of permanence and cultural continuity<br> within these reserves, adapting to new economic, <br>political, and environmental
+             realities. Despite the challenges of limited resources,<br> systemic marginalization, and cultural assimilation, 
+            Indigenous peoples have maintained<br> strong ties to their heritage, language, and traditions. Many have used their reserves as centers of resistance, 
+            revitalization, and self-governance, seeking to preserve their<br> ways of life while navigating the complexities of modern society. Today, while the conditions on reserves vary widely, 
+            Indigenous communities continue to fight for sovereignty, better living conditions, and recognition of their rights, striving to build a future that respects their history and cultures.
+            <br><a style="color: antiquewhite;" href="https://en.wikipedia.org/wiki/Treaty_1" target="_blank" style="color: white;">Treaty One wikipedia</a></p>
+
+            <div id ="text-vid">
+                <iframe id="vid"  width="560" height="315" src="https://www.youtube.com/embed/SVaK9rAV32A?si=d3cqcXfWXAVYDZhZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+                <p id="text2">The relationships between Indigenous nations are deeply rooted in shared histories, cultural ties, and mutual interests. However, they are also shaped by unique territorial boundaries, languages, and traditional governance systems, which vary significantly from one nation to another. These distinctions contribute to the diversity and richness of Indigenous societies, fostering a wide range of interactions, both cooperative and competitive, across different regions.
+
+                    Indigenous nations often maintain complex interrelations that include cooperation,<br> trade, diplomacy, 
+                    and even conflict.<br> These relationships are not unlike those found between any other<br> group of sovereign entities. 
+                    Through intermarriage, alliances, and collaborative <br>efforts, many Indigenous nations have historically 
+                    worked<br>w together to protect their land,<br> resources, and sovereignty. At the same time, territorial
+                     disputes and differences in worldview or governance systems have also <br>led to tension and conflict.
+                     <br><a style="color: antiquewhite;" href="https://treaty1.ca/t1n/" target="_blank" style="color: white;">treaty 1 and 2 nations</a> </p>
+
+            </div>
+            
+    <footer id="align-footer">
+        <p><a href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028664/1581294165927" target="_blank" style="color: white;">Learn more about Treaty One here</a></p>
+        <!-- This link directs users to more detailed information about Treaty One. -->
+        
+        <p id="color">For grade 4-8 
+            <br><a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank" style="color: white;">Learn more about Treaties 1 and 2</a>
+            <br><a href="https://www.youtube.com/embed/8uB83G7xZgU?si=oaH5HIyMqR92yrbi" target="_blank" style="color: white;">Find Out About How The Treaties Were Made</a>
+        </p>
+        <!-- A secondary link provides additional learning resources for younger audiences. -->
+    </footer>
+</body>
+</html>
